@@ -1,0 +1,80 @@
+// Make the Pisces scheme closer to a traditional fixed-left Chinese tech blog.
+$body-bg-color = #eeeeee
+$content-bg-color = #ffffff
+$text-color = #444444
+$link-color = #3f6f9f
+$link-hover-color = #2d557c
+$sidebar-bg-color = #efefef
+$sidebar-highlight = #f8f8f8
+
+@media (min-width: 992px) {
+  .sidebar {
+    margin-top: 0;
+  }
+
+  .sidebar-inner {
+    background: $sidebar-bg-color;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .15);
+  }
+
+  .site-brand-container {
+    background: #242424;
+    padding: 28px 16px 22px;
+  }
+
+  .site-title, .site-subtitle {
+    color: #ffffff;
+  }
+
+  .site-subtitle {
+    opacity: .9;
+  }
+
+  .menu-item a {
+    border-bottom: 1px solid #e4e4e4;
+    color: #555;
+  }
+
+  .menu-item-active a, .menu-item a:hover {
+    background: $sidebar-highlight;
+    color: #333;
+  }
+
+  .site-overview-wrap {
+    background: #ffffff;
+    margin: 12px;
+    padding: 22px 14px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .16);
+  }
+}
+
+.post-block, .post {
+  background: #ffffff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
+}
+
+.post-block {
+  margin-bottom: 12px;
+  padding: 38px 42px;
+}
+
+.post-title {
+  font-size: 26px;
+}
+
+.post-title-link {
+  color: #444;
+}
+
+.post-title-link:hover {
+  color: #3f6f9f;
+}
+
+.post-button .btn {
+  border-radius: 0;
+  border-color: #555;
+}
+
+@media (max-width: 767px) {
+  .post-block { padding: 25px 18px; }
+}

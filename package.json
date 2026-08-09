@@ -1,0 +1,44 @@
+{
+  "name": "dreamzhongju.github.io",
+  "version": "1.0.0",
+  "description": "DreamZhongJu 的 Hexo + NexT Pisces 个人博客。",
+  "scripts": {
+    "clean": "hexo clean",
+    "build": "hexo generate",
+    "serve": "hexo server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DreamZhongJu/DreamZhongJu.github.io.git"
+  },
+  "keywords": [
+    "hexo",
+    "blog",
+    "kg-rag",
+    "llm"
+  ],
+  "author": "DreamZhongJu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DreamZhongJu/DreamZhongJu.github.io/issues"
+  },
+  "homepage": "https://github.com/DreamZhongJu/DreamZhongJu.github.io#readme",
+  "hexo": {
+    "version": "8.1.2"
+  },
+  "dependencies": {
+    "@adobe/css-tools": "^4.5.0",
+    "hexo": "^8.1.2",
+    "hexo-generator-archive": "^2.0.0",
+    "hexo-generator-category": "^2.0.0",
+    "hexo-generator-index": "^4.0.0",
+    "hexo-generator-tag": "^2.0.0",
+    "hexo-renderer-marked": "^7.0.1",
+    "hexo-renderer-stylus": "^3.0.1",
+    "hexo-server": "^3.0.0",
+    "hexo-theme-next": "^8.29.0"
+  },
+  "devDependencies": {
+    "hexo-cli": "^4.3.2"
+  }
+}

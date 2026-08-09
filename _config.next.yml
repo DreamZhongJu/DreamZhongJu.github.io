@@ -1,0 +1,64 @@
+scheme: Pisces
+darkmode: false
+
+menu:
+  home: / || fa fa-home
+  about: /about/ || fa fa-user
+  tags: /tags/ || fa fa-tags
+  archives: /archives/ || fa fa-archive
+
+menu_settings:
+  icons: true
+  badges: false
+
+sidebar:
+  position: left
+  display: always
+  padding: 18
+  offset: 12
+  width_dual_column: 240
+
+avatar:
+  url: https://avatars.githubusercontent.com/u/112360879?v=4
+  rounded: true
+  rotated: false
+
+site_state: true
+
+social:
+  GitHub: https://github.com/DreamZhongJu || fab fa-github
+
+social_icons:
+  enable: true
+  icons_only: false
+  transition: false
+
+links_settings:
+  icon: fa fa-globe
+  layout: block
+
+footer:
+  since: 2026
+  icon:
+    name: fa fa-heart
+    animated: false
+    color: '#555'
+  powered: true
+
+creative_commons:
+  license: by-nc-sa
+  sidebar: false
+  post: false
+
+post_meta:
+  item_text: true
+  created_at: true
+  updated_at:
+    enable: true
+  categories: true
+
+excerpt_description: true
+read_more_btn: true
+
+custom_file_path:
+  style: source/_data/styles.styl

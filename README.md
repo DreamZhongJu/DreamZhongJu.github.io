@@ -1,18 +1,18 @@
-# DreamZhongJu 的个人主页
+# DreamZhongJu's Blog
 
-这是一个无需构建的静态个人主页与博客起始模板，已包含首页、作品集、文章页和“网站正在建设中”的提示。
+基于 [Hexo](https://hexo.io/) 与 [NexT Pisces](https://theme-next.js.org/) 的个人技术博客。
 
-## 发布到 GitHub Pages
+## 写一篇新文章
 
-1. 在 GitHub 新建一个公开仓库，名称必须是 `DreamZhongJu.github.io`。
-2. 将本目录的全部文件上传到仓库根目录（包括隐藏的 `.github` 文件夹）。
-3. 在仓库的 **Settings → Pages** 中，选择 **GitHub Actions** 作为发布来源。
-4. 推送后等待工作流完成，网站将发布到 `https://dreamzhongju.github.io`。
+```bash
+npx hexo new "文章标题"
+```
 
-## 更新内容
+文章会生成在 `source/_posts/`。填写内容后执行以下命令预览或生成站点：
 
-- 修改 `index.html`：主页介绍、项目和最新文章卡片。
-- 修改 `blog/index.html`：文章列表。
-- 修改 `styles.css`：视觉样式。
+```bash
+npx hexo server
+npx hexo generate
+```
 
-后续可将每一篇文章增加为 `blog/文章-slug/index.html`，并从文章列表链接过去。
+推送到 `main` 分支后，GitHub Actions 会自动构建并发布到 GitHub Pages。
