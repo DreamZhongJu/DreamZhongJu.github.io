@@ -1,57 +1,29 @@
 <!doctype html>
 <html lang="zh-CN">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="DreamZhongJu 的个人简介：KG-RAG、LLM 与 AI 系统工程。" />
-    <title>DreamZhongJu · 个人简介</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="DreamZhongJu 的个人博客与研究主页。" /><title>DreamZhongJu · 个人主页</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet" /><link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="site-header">
-      <div class="header-inner">
-        <a class="brand" href="index.html">DreamZhongJu</a>
-        <nav aria-label="主导航">
-          <a class="active" href="index.html">简介</a>
-          <a href="projects/index.html">项目</a>
-          <a href="blog/index.html">博客</a>
-        </nav>
-        <a class="github" href="https://github.com/DreamZhongJu" target="_blank" rel="noreferrer">GitHub</a>
-      </div>
-    </header>
-    <main class="page">
-      <p class="notice"><span></span> 网站正在建设中，内容将持续更新。</p>
-      <section class="intro">
-        <p class="label">ABOUT</p>
-        <h1>Dream<br />ZhongJu</h1>
-        <p class="lead">专注于知识图谱增强检索、<em>大语言模型应用</em>与可靠的 AI 系统工程。</p>
+    <header class="topbar"><div class="nav-wrap"><a class="logo" href="index.html">DreamZhongJu</a><nav><a class="active" href="index.html">首页</a><a href="projects/index.html">项目</a><a href="blog/index.html">博客</a><a href="https://github.com/DreamZhongJu" target="_blank" rel="noreferrer">GitHub</a></nav></div></header>
+    <section class="hero"><div><p>DreamZhongJu 的个人站点</p><h1>记录热爱，<br />也记录成长。</h1><span>KG-RAG · LLM · Systems</span></div></section>
+    <main class="layout">
+      <section class="content-card introduction">
+        <div class="card-title"><span>👋</span><h2>你好，我是 DreamZhongJu</h2></div>
+        <p class="under-construction">网站正在建设中，文章、项目与个人经历会持续完善。</p>
+        <p>目前即将进入苏州大学攻读硕士学位。本科阶段就读于湖北大学计算机科学与技术专业，对知识图谱增强检索、LLM 应用和工程化系统有持续的兴趣。</p>
+        <p>我希望把复杂的技术问题拆解成可验证、可落地的方案：从知识库与检索链路，到模型应用和可靠的服务端系统。这个站点会作为我的研究笔记、项目复盘和学习记录。</p>
+        <div class="skill-row"><span>Python</span><span>Go</span><span>Flutter</span><span>PyTorch</span><span>LangChain</span><span>Docker</span></div>
+        <div class="quick-links"><a href="projects/index.html"><b>项目作品</b><small>查看我正在做的事</small><i>→</i></a><a href="blog/index.html"><b>博客文章</b><small>阅读研究与工程笔记</small><i>→</i></a></div>
       </section>
-      <section class="profile-grid">
-        <div class="profile-aside">
-          <p>当前位置</p>
-          <strong>苏州大学<br />硕士研究生</strong>
-          <p>研究兴趣</p>
-          <strong>KG-RAG · LLM<br />Knowledge Graph</strong>
-        </div>
-        <div class="profile-main">
-          <p>我关注如何将模型能力转化为真正可靠、可解释且有价值的智能应用。研究上，我希望探索知识图谱与检索增强生成的结合；工程上，我持续打磨系统在性能、稳定性与使用体验上的细节。</p>
-          <p>我的经历始于湖北大学计算机科学与技术专业。过去的学习与项目实践覆盖 Python、Go、Flutter，以及从数据处理、模型应用到服务端系统设计的完整链路。</p>
-          <div class="areas">
-            <div><span>01</span><h2>Knowledge-augmented AI</h2><p>知识图谱、检索增强生成与可信问答。</p></div>
-            <div><span>02</span><h2>LLM Applications</h2><p>面向真实问题的模型应用、评测与迭代。</p></div>
-            <div><span>03</span><h2>Reliable Systems</h2><p>可观测、可维护、具备工程韧性的系统。</p></div>
-          </div>
-        </div>
-      </section>
-      <section class="next">
-        <p>浏览更多</p>
-        <a href="projects/index.html">项目作品 <span>→</span></a>
-        <a href="blog/index.html">研究与工程笔记 <span>→</span></a>
-      </section>
+      <aside class="sidebar">
+        <section class="side-card profile"><div class="avatar">DZ</div><h2>DreamZhongJu</h2><p>CS · AI · Open Source</p><div class="profile-links"><a href="https://github.com/DreamZhongJu" target="_blank" rel="noreferrer">GitHub</a><a href="blog/index.html">博客</a></div></section>
+        <section class="side-card"><h3>研究方向</h3><ul class="plain-list"><li>知识图谱增强检索</li><li>大语言模型应用</li><li>可靠系统工程</li></ul></section>
+        <section class="side-card"><h3>站点状态</h3><p class="status"><em></em> 持续建设中</p></section>
+      </aside>
     </main>
-    <footer><span>© 2026 DreamZhongJu</span><span>Built with care.</span></footer>
+    <footer>© 2026 DreamZhongJu · Keep learning, keep building.</footer>
   </body>
 </html>
