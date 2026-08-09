@@ -3,122 +3,55 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="DreamZhongJu 的个人主页：KG-RAG、LLM 与可靠 AI 系统实践。" />
-    <title>DreamZhongJu · KG-RAG / LLM / Systems</title>
+    <meta name="description" content="DreamZhongJu 的个人简介：KG-RAG、LLM 与 AI 系统工程。" />
+    <title>DreamZhongJu · 个人简介</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="noise" aria-hidden="true"></div>
     <header class="site-header">
-      <a class="wordmark" href="#top" aria-label="DreamZhongJu 首页">DZJ<span>_</span></a>
-      <nav aria-label="主导航">
-        <a href="#about">关于</a>
-        <a href="#projects">项目</a>
-        <a href="#writing">文章</a>
-      </nav>
-      <a class="github-link" href="https://github.com/DreamZhongJu" target="_blank" rel="noreferrer">GitHub ↗</a>
+      <div class="header-inner">
+        <a class="brand" href="index.html">DreamZhongJu</a>
+        <nav aria-label="主导航">
+          <a class="active" href="index.html">简介</a>
+          <a href="projects/index.html">项目</a>
+          <a href="blog/index.html">博客</a>
+        </nav>
+        <a class="github" href="https://github.com/DreamZhongJu" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
     </header>
-
-    <main id="top">
-      <section class="hero">
-        <p class="eyebrow"><span></span> 个人主页 · 持续更新中</p>
-        <div class="construction" role="status">
-          <span>●</span> 网站正在建设中：内容与项目档案会陆续完善。
-        </div>
-        <h1>把知识变成<br /><em>可用的智能。</em></h1>
-        <p class="hero-copy">我是 DreamZhongJu，专注于 <strong>KG-RAG、LLM 应用</strong>与可靠的 AI 系统工程。这里记录我从研究、实验到产品落地的过程。</p>
-        <div class="hero-actions">
-          <a class="button primary" href="#writing">阅读最新文章 <span>↓</span></a>
-          <a class="button text" href="https://github.com/DreamZhongJu" target="_blank" rel="noreferrer">查看 GitHub <span>↗</span></a>
-        </div>
-        <div class="hero-meta">
-          <div><span class="meta-label">NOW</span><span>Incoming M.S. @ Soochow University</span></div>
-          <div><span class="meta-label">FOCUS</span><span>Knowledge Graph · RAG · LLM Systems</span></div>
-        </div>
+    <main class="page">
+      <p class="notice"><span></span> 网站正在建设中，内容将持续更新。</p>
+      <section class="intro">
+        <p class="label">ABOUT</p>
+        <h1>Dream<br />ZhongJu</h1>
+        <p class="lead">专注于知识图谱增强检索、<em>大语言模型应用</em>与可靠的 AI 系统工程。</p>
       </section>
-
-      <section id="about" class="about section-grid">
-        <p class="section-kicker">01 / ABOUT</p>
-        <div>
-          <h2>研究思考，<br />工程作答。</h2>
-          <p>从知识图谱增强检索，到一个能被真实用户使用的应用，我对“智能”更感兴趣的部分，是如何让它变得可靠、可解释且真正有帮助。</p>
-          <p>目前正在从湖北大学走向苏州大学，持续探索大语言模型、知识图谱与系统工程的交叉地带。</p>
-          <div class="tags">
-            <span>Python</span><span>Go</span><span>Flutter</span><span>PyTorch</span><span>LangChain</span><span>Docker</span>
+      <section class="profile-grid">
+        <div class="profile-aside">
+          <p>当前位置</p>
+          <strong>苏州大学<br />硕士研究生</strong>
+          <p>研究兴趣</p>
+          <strong>KG-RAG · LLM<br />Knowledge Graph</strong>
+        </div>
+        <div class="profile-main">
+          <p>我关注如何将模型能力转化为真正可靠、可解释且有价值的智能应用。研究上，我希望探索知识图谱与检索增强生成的结合；工程上，我持续打磨系统在性能、稳定性与使用体验上的细节。</p>
+          <p>我的经历始于湖北大学计算机科学与技术专业。过去的学习与项目实践覆盖 Python、Go、Flutter，以及从数据处理、模型应用到服务端系统设计的完整链路。</p>
+          <div class="areas">
+            <div><span>01</span><h2>Knowledge-augmented AI</h2><p>知识图谱、检索增强生成与可信问答。</p></div>
+            <div><span>02</span><h2>LLM Applications</h2><p>面向真实问题的模型应用、评测与迭代。</p></div>
+            <div><span>03</span><h2>Reliable Systems</h2><p>可观测、可维护、具备工程韧性的系统。</p></div>
           </div>
         </div>
       </section>
-
-      <section id="projects" class="projects">
-        <div class="section-heading">
-          <p class="section-kicker">02 / SELECTED WORK</p>
-          <h2>正在构建的作品集</h2>
-          <p>更多架构图、复盘和演示将随网站建设逐步发布。</p>
-        </div>
-        <div class="project-grid">
-          <article class="project featured">
-            <p class="project-number">01</p>
-            <div class="project-content">
-              <p class="project-type">FULL-STACK / GRADUATION PROJECT</p>
-              <h3>MoocHub</h3>
-              <p>一个面向学习者的在线学习社区。以 Flutter + Go 为核心，并围绕缓存、热点保护、限流、熔断与可观测性构建更稳健的学习体验。</p>
-              <div class="stack"><span>Flutter</span><span>Go</span><span>MySQL</span><span>Redis</span></div>
-            </div>
-            <span class="project-arrow">↗</span>
-          </article>
-          <article class="project">
-            <p class="project-number">02</p>
-            <div class="project-content">
-              <p class="project-type">LLM APPLICATION</p>
-              <h3>AI Smart Choice</h3>
-              <p>面向高考志愿填报的智能问答系统：清洗全国高校招生数据，构建知识库，并将本地部署的 ChatGLM 与 LangChain 结合。</p>
-              <div class="stack"><span>Python</span><span>LangChain</span><span>ChatGLM</span></div>
-            </div>
-          </article>
-          <article class="project coming">
-            <p class="project-number">03</p>
-            <div class="project-content">
-              <p class="project-type">RESEARCH LOG</p>
-              <h3>KG-RAG Lab</h3>
-              <p>知识图谱增强检索生成的阅读、复现与实验记录。该项目页正在建设，敬请期待。</p>
-              <div class="stack"><span>Coming soon</span></div>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section id="writing" class="writing section-grid">
-        <p class="section-kicker">03 / WRITING</p>
-        <div>
-          <div class="writing-head"><h2>从问题出发，<br />留下可复用的答案。</h2><a href="blog/index.html">全部文章 →</a></div>
-          <div class="post-list">
-            <a class="post" href="blog/index.html">
-              <p class="post-date">COMING SOON</p>
-              <h3>我如何开始做 KG-RAG：从问题定义到第一轮实验</h3>
-              <span>RAG & KNOWLEDGE GRAPH</span>
-            </a>
-            <a class="post" href="blog/index.html">
-              <p class="post-date">COMING SOON</p>
-              <h3>MoocHub 的缓存与热点保护：一次工程化复盘</h3>
-              <span>BUILD LOG</span>
-            </a>
-            <a class="post" href="blog/index.html">
-              <p class="post-date">COMING SOON</p>
-              <h3>从本科到研究生：我的 AI 学习路径</h3>
-              <span>NOTES</span>
-            </a>
-          </div>
-        </div>
+      <section class="next">
+        <p>浏览更多</p>
+        <a href="projects/index.html">项目作品 <span>→</span></a>
+        <a href="blog/index.html">研究与工程笔记 <span>→</span></a>
       </section>
     </main>
-
-    <footer>
-      <p>© 2026 DreamZhongJu</p>
-      <p>Designed for thoughtful building.</p>
-      <a href="https://github.com/DreamZhongJu" target="_blank" rel="noreferrer">GitHub ↗</a>
-    </footer>
+    <footer><span>© 2026 DreamZhongJu</span><span>Built with care.</span></footer>
   </body>
 </html>
