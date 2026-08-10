@@ -44,6 +44,14 @@ MCP 动态工具接入、请求级可观测性、离线评测 + 真实请求回�
 
 同一套自托管哲学的另一个应用：每天自动聚合 RSS/arXiv/新闻并用 LLM 整理成中文日报。
 
+### 番外：生产事故复盘
+
+**《一次 DeepSeek thinking 模式 400 的事故复盘：reasoning_content 回传与自愈重试》**
+
+[https://dreamzhongju.github.io/2026/08/11/deepseek-reasoning-content-400/](https://dreamzhongju.github.io/2026/08/11/deepseek-reasoning-content-400/)
+
+凯伊在生产环境遇到的多轮对话 400 事故：根因是 DeepSeek thinking 模式的 `reasoning_content` 必须原样回传，隐藏坑是旧会话线程的存量数据，最终用"保存 + 回传 + 自愈重试"三步解决。
+
 ## 相关项目
 
 - 飞书研究助手：[github.com/DreamZhongJu/feishu-research-assistant](https://github.com/DreamZhongJu/feishu-research-assistant)
