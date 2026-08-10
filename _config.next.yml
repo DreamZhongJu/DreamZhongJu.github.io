@@ -5,7 +5,6 @@ menu:
   home: / || fa fa-home
   about: /about/ || fa fa-user
   series: /agent-series/ || fa fa-list
-  search: /search/ || fa fa-search
   tags: /tags/ || fa fa-tags
   archives: /archives/ || fa fa-archive
 
