@@ -90,3 +90,11 @@ read_more_btn: true
 
 custom_file_path:
   style: source/_data/styles.styl
+
+# Self-host third-party scripts instead of loading from CDNJS.
+# CDNJS (cdnjs.cloudflare.com) is often unreachable from mainland China,
+# which silently breaks the local search popup (LocalSearch class missing).
+vendors:
+  local_search: /js/searchdb.js
+  fontawesome: /lib/fontawesome/css/all.min.css
+  animate_css: /lib/animate/animate.min.css
