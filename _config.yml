@@ -39,3 +39,14 @@ tag_generator:
 
 category_generator:
   per_page: 20
+
+# SEO: sitemap for search engines.
+sitemap:
+  path: sitemap.xml
+
+# Local search index.
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
