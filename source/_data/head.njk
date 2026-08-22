@@ -1,0 +1,31 @@
+{#- Custom head injection: JSON-LD structured data for search engines. -#}
+{%- if page.layout === 'post' and page.title and not page.noindex %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ page.title | dump | safe }},
+  "description": {{ (page.description or config.description) | dump | safe }},
+  "url": {{ page.permalink | dump | safe }},
+  "datePublished": {{ page.date.toISOString() | dump | safe }},
+  "dateModified": {{ page.updated.toISOString() | dump | safe }},
+  "author": {
+    "@type": "Person",
+    "name": {{ config.author | dump | safe }}
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ config.title | dump | safe }},
+    "logo": {
+      "@type": "ImageObject",
+      "url": {{ config.url | dump | safe }}
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": {{ page.permalink | dump | safe }}
+  },
+  "keywords": "{%- for tag in page.tags.toArray() -%}{{ tag.name }}{% if not loop.last %}, {% endif %}{%- endfor -%}"
+}
+</script>
+{%- endif %}

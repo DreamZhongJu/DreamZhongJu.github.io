@@ -44,6 +44,14 @@ category_generator:
 sitemap:
   path: sitemap.xml
 
+# SEO: RSS feed (Atom), also enables feed link in the sidebar.
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content: true
+
 # Local search index.
 search:
   path: search.xml

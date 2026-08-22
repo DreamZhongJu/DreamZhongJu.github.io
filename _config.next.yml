@@ -54,6 +54,7 @@ site_state: true
 
 social:
   GitHub: https://github.com/DreamZhongJu || fab fa-github
+  RSS: /atom.xml || fa fa-rss
 
 social_icons:
   enable: true
@@ -89,6 +90,20 @@ read_more_btn: true
 
 custom_file_path:
   style: source/_data/styles.styl
+  head: source/_data/head.njk
+
+# SEO: title with subtitle on the index page (e.g. "Blog - Subtitle").
+index_with_subtitle: true
+
+# SEO: site verification codes.
+# Google Search Console: https://search.google.com/search-console
+google_site_verification:
+# Bing Webmaster: https://www.bing.com/webmasters
+bing_site_verification:
+# Baidu Webmaster: https://ziyuan.baidu.com/site
+baidu_site_verification:
+# Yandex Webmaster: https://webmaster.yandex.ru
+yandex_site_verification:
 
 # Self-host third-party scripts instead of loading from CDNJS.
 # CDNJS (cdnjs.cloudflare.com) is often unreachable from mainland China,
