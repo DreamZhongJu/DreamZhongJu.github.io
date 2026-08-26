@@ -94,6 +94,14 @@ canonical 锚点模型、nickmap 反查、coref_overrides 人工共指表，以�
 
 45 万条消息带 QQ 号与毫秒时间戳全量重灌：发言人钉扎、@/回复确定性边、慢滴响应的墙钟防御、看门狗自愈，以及"核酸检测 @2022-09-18"这种从数据里自己长出来的时代切片。
 
+### 番外：开源与申请复盘
+
+**《一次 OSPP 申请的事故复盘：材料都做好了，为什么还是被拒》**
+
+[https://dreamzhongju.github.io/2026/08/26/ospp-application-retrospective/](https://dreamzhongju.github.io/2026/08/26/ospp-application-retrospective/)
+
+申请 OSPP 财报可追溯课题的完整复盘：抽取技术闭环都做完了、上游 PR 也合入了，却因为"交付的时机与形式"落选。五条归因 + 同课题另一条失败路线的旁证，附可执行的下次清单。
+
 ## 相关项目
 
 - 飞书研究助手：[github.com/DreamZhongJu/feishu-research-assistant](https://github.com/DreamZhongJu/feishu-research-assistant)
