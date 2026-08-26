@@ -86,6 +86,14 @@ canonical 锚点模型、nickmap 反查、coref_overrides 人工共指表，以�
 
 谓词白名单、锚点类型约束、证据计数重构，Neo4j 内存分批删除，以及模块缓存幽灵进程事故与人肉事实纠错通道。
 
+### 深潜 4：JSONL 结构化重导与事件星实战
+
+**《给知识图谱喂全量聊天记录：JSONL 结构化重导与事件星实战》**
+
+[https://dreamzhongju.github.io/2026/08/26/kairos-jsonl-reimport-event-stars/](https://dreamzhongju.github.io/2026/08/26/kairos-jsonl-reimport-event-stars/)
+
+45 万条消息带 QQ 号与毫秒时间戳全量重灌：发言人钉扎、@/回复确定性边、慢滴响应的墙钟防御、看门狗自愈，以及"核酸检测 @2022-09-18"这种从数据里自己长出来的时代切片。
+
 ## 相关项目
 
 - 飞书研究助手：[github.com/DreamZhongJu/feishu-research-assistant](https://github.com/DreamZhongJu/feishu-research-assistant)
@@ -94,4 +102,4 @@ canonical 锚点模型、nickmap 反查、coref_overrides 人工共指表，以�
 
 ## 系列状态
 
-持续更新中。接下来的主题：事件星型超边（真·n 元关系）、RAG 与知识图谱增强、大模型后训练、开源贡献实践。
+持续更新中。接下来的主题：RAG 与知识图谱增强、大模型后训练、开源贡献实践。
