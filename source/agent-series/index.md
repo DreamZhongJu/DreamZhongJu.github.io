@@ -96,11 +96,11 @@ canonical 锚点模型、nickmap 反查、coref_overrides 人工共指表，以�
 
 ### 番外：开源与申请复盘
 
-**《一次 OSPP 申请的事故复盘：材料都做好了，为什么还是被拒》**
+**《一次 OSPP 申请的事故复盘：技术做完了，我却没听懂导师要什么》**
 
 [https://dreamzhongju.github.io/2026/08/26/ospp-application-retrospective/](https://dreamzhongju.github.io/2026/08/26/ospp-application-retrospective/)
 
-申请 OSPP 财报可追溯课题的完整复盘：抽取技术闭环都做完了、上游 PR 也合入了，却因为"交付的时机与形式"落选。五条归因 + 同课题另一条失败路线的旁证，附可执行的下次清单。
+申请 OSPP 财报可追溯课题的完整复盘：抽取闭环做完了、上游 PR 也合入了，还是落选——"可演示的效果"我没看懂也不去问，回复邮件全靠 AI 代笔越改越不敢发，一份静态 HTML 成品报告充数"能力演示"。三行笨拙的真话，胜过三千字发不出去的草稿。
 
 ## 相关项目
 
