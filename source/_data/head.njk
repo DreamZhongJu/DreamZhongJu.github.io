@@ -1,4 +1,30 @@
-{#- Custom head injection: JSON-LD structured data for search engines. -#}
+{#- Custom head injection: SEO structured data (JSON-LD + social preview). -#}
+{%- set avatar = "https://avatars.githubusercontent.com/u/112360879?v=4" -%}
+{%- set site_url = config.url -%}
+
+{#- Social sharing preview image (og:image / twitter:image). -#}
+<meta property="og:image" content="{{ avatar }}">
+<meta name="twitter:image" content="{{ avatar }}">
+
+{#- WebSite schema — every page (homepage, archives, posts). -#}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": {{ config.title | dump | safe }},
+  "alternateName": {{ config.subtitle | dump | safe }},
+  "url": {{ site_url | dump | safe }},
+  "inLanguage": "zh-CN",
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ config.author | dump | safe }},
+    "url": {{ site_url | dump | safe }},
+    "logo": { "@type": "ImageObject", "url": {{ avatar | dump | safe }} }
+  }
+}
+</script>
+
+{#- BlogPosting + BreadcrumbList on article pages. -#}
 {%- if page.layout === 'post' and page.title and not page.noindex %}
 <script type="application/ld+json">
 {
@@ -9,23 +35,48 @@
   "url": {{ page.permalink | dump | safe }},
   "datePublished": {{ page.date.toISOString() | dump | safe }},
   "dateModified": {{ page.updated.toISOString() | dump | safe }},
+  "inLanguage": "zh-CN",
+  "image": {{ avatar | dump | safe }},
   "author": {
     "@type": "Person",
-    "name": {{ config.author | dump | safe }}
+    "name": {{ config.author | dump | safe }},
+    "url": {{ (site_url + "/about/") | dump | safe }}
   },
   "publisher": {
     "@type": "Organization",
     "name": {{ config.title | dump | safe }},
-    "logo": {
-      "@type": "ImageObject",
-      "url": {{ config.url | dump | safe }}
-    }
+    "logo": { "@type": "ImageObject", "url": {{ avatar | dump | safe }} }
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": {{ page.permalink | dump | safe }}
   },
   "keywords": "{%- for tag in page.tags.toArray() -%}{{ tag.name }}{% if not loop.last %}, {% endif %}{%- endfor -%}"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "首页", "item": {{ site_url | dump | safe }} },
+    { "@type": "ListItem", "position": 2, "name": {{ page.title | dump | safe }}, "item": {{ page.permalink | dump | safe }} }
+  ]
+}
+</script>
+{%- endif %}
+
+{#- Person schema on the about page. -#}
+{%- if page.path and page.path.startsWith('about/') %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": {{ config.author | dump | safe }},
+  "url": {{ (site_url + "/about/") | dump | safe }},
+  "image": {{ avatar | dump | safe }},
+  "description": {{ config.description | dump | safe }},
+  "knowsAbout": ["KG-RAG", "LLM", "Knowledge Graph", "Python", "Go"]
 }
 </script>
 {%- endif %}
