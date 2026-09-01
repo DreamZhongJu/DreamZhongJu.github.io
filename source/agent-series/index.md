@@ -102,6 +102,12 @@ canonical 锚点模型、nickmap 反查、coref_overrides 人工共指表，以�
 
 申请 OSPP 财报可追溯课题的完整复盘：抽取闭环做完了、上游 PR 也合入了，还是落选——"可演示的效果"我没看懂也不去问，回复邮件全靠 AI 代笔越改越不敢发，一份静态 HTML 成品报告充数"能力演示"。三行笨拙的真话，胜过三千字发不出去的草稿。
 
+**《申请开源之夏一个月，一个名额都没拿到：不是申请书的问题，是占坑游戏》**
+
+[https://dreamzhongju.github.io/2026/09/02/ospp-competition-is-not-competition/](https://dreamzhongju.github.io/2026/09/02/ospp-competition-is-not-competition/)
+
+以竞赛选手的身份申请了整整一个月：跑通项目、卷了真实 PR（其中一个合入上游）、写了扎实的申请书——零命中。复盘时看清，问题根本不在申请书：热门项目的名额在评审前就被"提前在导师仓库里干过活的人"锁定了。竞赛拼提交，OSPP 拼的是信任。
+
 ## 相关项目
 
 - 飞书研究助手：[github.com/DreamZhongJu/feishu-research-assistant](https://github.com/DreamZhongJu/feishu-research-assistant)
