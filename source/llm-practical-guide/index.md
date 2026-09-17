@@ -33,4 +33,10 @@ comments: false
 
 从 Prompt 如何改变上下文开始，梳理解码参数、任务链、In-context Learning、CoT、自洽性，以及面向 RAG 和 Agent 的结构化输出与验证机制。
 
+### 第七章：LLM Memory、状态管理与 Agent 基础
+
+[《大语言模型实用指南》第七章：LLM Memory、状态管理与 Agent 基础](/2026/09/17/chapter7-llm-memory-state-and-agent-foundations/)
+
+从 LLM 的无状态本质出发，比较短期会话记忆策略，并梳理长期记忆的提取、检索、冲突处理、遗忘与权限边界，以及它与 RAG 的区别。
+
 后续章节会持续补充到本页。
