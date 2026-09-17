@@ -39,4 +39,10 @@ comments: false
 
 从 LLM 的无状态本质出发，比较短期会话记忆策略，并梳理长期记忆的提取、检索、冲突处理、遗忘与权限边界，以及它与 RAG 的区别。
 
+### 第八章：RAG、语义搜索与外部知识增强
+
+[《大语言模型实用指南》第八章：RAG、语义搜索与外部知识增强](/2026/09/17/chapter8-rag-semantic-search-and-external-knowledge/)
+
+解释 Chunk、Dense Retrieval、Hybrid Search、Reranker、查询改写与多跳检索的关系，并给出面向检索、上下文和生成的 RAG 评测框架。
+
 后续章节会持续补充到本页。
