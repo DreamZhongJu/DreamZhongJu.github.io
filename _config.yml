@@ -1,7 +1,7 @@
 title: DreamZhongJu's Blog
 subtitle: '记录学习、研究与构建的过程'
-description: 'DreamZhongJu 的个人博客，关注 KG-RAG、LLM 与系统工程。'
-keywords: KG-RAG, LLM, Knowledge Graph, Python, Go
+description: 'DreamZhongJu，苏州大学在读研究生，研究方向为机器翻译。记录学习笔记、研究思考与项目实践。'
+keywords: 机器翻译, Machine Translation, Transformer, KG-RAG, LLM, Knowledge Graph, Python, Go
 author: DreamZhongJu
 language: zh-CN
 timezone: Asia/Shanghai

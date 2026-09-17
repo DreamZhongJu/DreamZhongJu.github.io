@@ -9,7 +9,7 @@ tags:
   - 知识图谱
   - NLP
   - 实体消歧
-description: 同一个群友有五个马甲，图谱里就是五个孤立节点。本文记录 Kairós 的实体对齐方案：canonical qq: 锚点、nickmap 反查、人工共指注册表，以及 merge_entity 迁移边时踩过的"名字覆盖"坑。
+description: '同一个群友有五个马甲，图谱里就是五个孤立节点。本文记录 Kairós 的实体对齐方案：canonical qq: 锚点、nickmap 反查、人工共指注册表，以及 merge_entity 迁移边时踩过的"名字覆盖"坑。'
 ---
 
 ## TL;DR
