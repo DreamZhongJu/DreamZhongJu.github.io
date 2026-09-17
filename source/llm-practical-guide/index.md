@@ -27,4 +27,10 @@ comments: false
 
 解释 Embedding、UMAP、HDBSCAN、c-TF-IDF 和 LLM 在主题建模流水线中的职责，并厘清 BERTopic 与 RAG、GraphRAG 的联系和边界。
 
+### 第六章：Prompt Engineering、推理控制与输出约束
+
+[《大语言模型实用指南》第六章：Prompt Engineering、推理控制与输出约束](/2026/09/17/chapter6-prompt-engineering-and-output-control/)
+
+从 Prompt 如何改变上下文开始，梳理解码参数、任务链、In-context Learning、CoT、自洽性，以及面向 RAG 和 Agent 的结构化输出与验证机制。
+
 后续章节会持续补充到本页。
