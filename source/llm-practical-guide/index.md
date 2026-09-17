@@ -51,4 +51,10 @@ comments: false
 
 从 ViT 的 Patch 表示、CLIP 的图文对齐到 BLIP-2 的视觉语言桥接，理解图像如何转换成可供 LLM 使用的视觉 token，以及相关训练和工程取舍。
 
+### 第十章：构建文本 Embedding 模型
+
+[《大语言模型实用指南》第十章：构建文本 Embedding 模型](/2026/09/17/chapter10-creating-text-embedding-models/)
+
+梳理 Bi-Encoder、Pooling、对比学习、Triplet Loss、批内负例和困难负样本，并说明如何以检索指标评估和迭代向量模型。
+
 后续章节会持续补充到本页。
