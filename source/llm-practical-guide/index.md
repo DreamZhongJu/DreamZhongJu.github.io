@@ -21,4 +21,10 @@ comments: false
 
 对比 BERT 微调、Embedding 加分类器和生成式 LLM 三条文本分类路线，并说明 T5 的 text-to-text 范式，以及指令微调与偏好对齐在 ChatGPT 中各自解决的问题。
 
+### 第五章：文本聚类、主题建模与 BERTopic
+
+[《大语言模型实用指南》第五章：文本聚类、主题建模与 BERTopic](/2026/09/17/chapter5-text-clustering-topic-modeling-bertopic/)
+
+解释 Embedding、UMAP、HDBSCAN、c-TF-IDF 和 LLM 在主题建模流水线中的职责，并厘清 BERTopic 与 RAG、GraphRAG 的联系和边界。
+
 后续章节会持续补充到本页。
