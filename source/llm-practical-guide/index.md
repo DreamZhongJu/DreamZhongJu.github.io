@@ -45,4 +45,10 @@ comments: false
 
 解释 Chunk、Dense Retrieval、Hybrid Search、Reranker、查询改写与多跳检索的关系，并给出面向检索、上下文和生成的 RAG 评测框架。
 
+### 第九章：多模态 LLM 与视觉语言模型
+
+[《大语言模型实用指南》第九章：多模态 LLM 与视觉语言模型](/2026/09/17/chapter9-multimodal-llm-vision-language-models/)
+
+从 ViT 的 Patch 表示、CLIP 的图文对齐到 BLIP-2 的视觉语言桥接，理解图像如何转换成可供 LLM 使用的视觉 token，以及相关训练和工程取舍。
+
 后续章节会持续补充到本页。
