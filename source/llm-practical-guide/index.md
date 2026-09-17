@@ -57,4 +57,10 @@ comments: false
 
 梳理 Bi-Encoder、Pooling、对比学习、Triplet Loss、批内负例和困难负样本，并说明如何以检索指标评估和迭代向量模型。
 
+### 第十一章：微调表示模型以完成分类任务
+
+[《大语言模型实用指南》第十一章：微调表示模型以完成分类任务](/2026/09/17/chapter11-fine-tuning-representation-models/)
+
+对比 Feature Extraction、全量微调、部分冻结与领域继续预训练，并梳理分类、NER、关系抽取和检索任务为何读取不同粒度的表示。
+
 后续章节会持续补充到本页。
