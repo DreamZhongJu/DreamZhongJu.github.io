@@ -5,6 +5,7 @@ menu:
   home: / || fa fa-home
   about: /about/ || fa fa-user
   series: /agent-series/ || fa fa-list
+  llm-guide: /llm-practical-guide/ || fa fa-book
   tags: /tags/ || fa fa-tags
   archives: /archives/ || fa fa-archive
 
