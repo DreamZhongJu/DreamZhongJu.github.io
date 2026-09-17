@@ -63,4 +63,10 @@ comments: false
 
 对比 Feature Extraction、全量微调、部分冻结与领域继续预训练，并梳理分类、NER、关系抽取和检索任务为何读取不同粒度的表示。
 
+### 第十二章：微调生成模型
+
+[《大语言模型实用指南》第十二章：微调生成模型](/2026/09/17/chapter12-fine-tuning-generation-models/)
+
+梳理预训练、SFT、偏好对齐、RLHF/DPO 与 LoRA/QLoRA 的分工，说明生成模型如何适配领域任务、输出格式和不断更新的知识。
+
 后续章节会持续补充到本页。
